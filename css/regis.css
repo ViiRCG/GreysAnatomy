@@ -1,0 +1,49 @@
+.main__regis{
+    margin-top: 150px;
+    flex-direction: row;
+}
+/* Capa contenedora del formulario */
+.contain_formulario{
+    width: 50%;
+    margin: 10px auto;
+}
+/* Imagen al lado derecho del formulario */
+.imagen__form{
+    width: 38%;
+    margin: 50px;
+    box-shadow: 2px 2px 20px rgb(122, 122, 126);
+}
+
+.form{
+    width: 98%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(219, 225, 233);
+    border-radius: 10px;
+}
+/* Capa de cada elemento */
+.label{
+    text-decoration: underline;
+    margin-right: 10px;
+}
+.linea{
+    box-shadow: 2px 2px 20px rgb(122, 122, 126);
+    padding: 5px;
+    margin:12px 20px;
+}
+
+/* Estilos para los botones de enviar y borrar */
+.boton{
+    width: 200px;
+    height: 30px;
+    margin: 10px  10px 10px;
+}
+
+
+/* Estilos para el texto que aparece en el legend */
+.legend{
+    font-weight: bold;
+    font-size: 1.2rem;
+}

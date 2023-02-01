@@ -1,0 +1,43 @@
+/* Modificaciones en el main para aplicarlos al main de la página localizaciones */
+.main__locali{
+    margin-top: 150px;
+    padding: 50px 10px;
+   
+}
+/* Capa contenedora del video de youtube */
+.section__video{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.video__locali{
+    text-align: center;
+    width: 95%;
+    height: 100%;
+
+}
+/* Textos sobre la ciudad */
+.section{
+    width: 98%;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgb(219, 225, 233);
+}
+.section__maps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.map__texts{
+    width: 55%;
+    text-align: justify;
+}
+/* Capa contenedora del enlace a googlemaps */
+.map__location{
+    margin: 10px;
+    width: 40%;
+    height: 300px;
+}

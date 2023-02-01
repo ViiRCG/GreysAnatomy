@@ -1,0 +1,39 @@
+.main__personajes{
+    margin-top: 150px;
+}
+/* Capa contenedora de las tarjetas */
+.tarjetas{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* Cada una de las tarjetas */
+.tarjeta{
+    width: 20%;
+    margin: 20px;
+    padding: 14px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgb(48, 48, 48);
+    background-color: rgb(219, 225, 233);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta__img{
+    width: 75%;
+    height: 250px;
+}
+.tarjeta__tittle{
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+.tarjeta__tittle:hover{
+    text-decoration: underline;
+}
+.tarjeta__text{
+    text-align: justify;
+}

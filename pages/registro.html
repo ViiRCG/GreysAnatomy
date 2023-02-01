@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/regis.css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <!-- Menú fijo en la parte superior que comparten todas las páginas -->
+    <div class="header">
+        <div class="header__logo">
+            <img src="../assets/images/titulo.jpg" class="img">
+        </div>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a href="../index.html" class="menu__link">
+                        Inicio
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="./personajes.html" class="menu__link">
+                        Personajes
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="./temporadas.html" class="menu__link">
+                        Temporadas
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="./localizaciones.html" class="menu__link">
+                        ¿Dónde trascurre?
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="./registro.html" class="menu__link">
+                        Registro
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__login">
+            <p>Perfil</p>
+            <img src="../assets/images/usuario.png" alt="" class="img">
+        </div>
+    </div>
+
+    <main class="main main__regis" id="home">
+        <!-- Capa contenedora del formulario -->
+        <div class="contain_formulario">
+            <h2>Regístrate y entra en el sorteo de un viaje para dos personas a ¡SEATTLE!</h2>
+
+            <form action="" method="" class="form">
+
+
+                <div class="linea">
+                    <label class="label">Nombre: </label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Vanesa" required>
+                </div>
+                <div class="linea">
+                    <label class="label" for="apellido1">Apellidos: </label>
+
+                    <input type="text" name="apellidos" id="apellidos" placeholder="González Moreno" required>
+                </div>
+                <div class="linea">
+                    <label class="label" for="nacimiento">Fecha de nacimiento: </label>
+                    <input type="date" name="nacimiento" id="nacimiento" required>
+                </div>
+                <div class="linea">
+                    <label class="label" for="sexo">Sexo: </label>
+                    <input type="radio" name="sexo" value="masculino">Masculino
+                    <input type="radio" name="sexo" value="femenino">Femenino
+
+                </div>
+                <div class="linea">
+                    <label class="label" for="tlf">Teléfono: </label>
+                    <input type="text" name="tlf" id="tlf" placeholder="611222333" required>
+
+                </div>
+                <div class="linea">
+                    <label class="label" for="correo">Correo electrónico: </label>
+                    <input type="email" placeholder="correo@correo.com" required>
+
+                </div>
+
+                <div class="linea">
+                    <label class="label" for="direccion">Dirección: </label>
+                    <input type="text" name="direccion" id="direccion" placeholder="Calle Valkiria, 24"
+                        required>
+                </div>
+                <div class="linea">
+                    <label class="label" for="localidad">Localidad</label>
+                    <input type="text" name="localidad" id="localidad" placeholder="Leganés" required>
+                </div>
+                <div class="linea">
+                    <label class="label" for="cp">CP</label>
+                    <input type="text" name="cp" id="cp" placeholder="28925" required>
+                </div>
+
+                <!-- Desplegable de Provincias -->
+                <div class="linea">
+                    <label class="label" for="provincia">Provincia</label>
+                    <select name="provincia" id="provincia" required>
+                        <option value=""></option>
+                        <option value="a coruña">A Coruña</option>
+                        <option value="alava">Álava</option>
+                        <option value="albacete">Albacete</option>
+                        <option value="alicante">Alicante</option>
+                        <option value="almeria">Almería</option>
+                        <option value="asturias">Asturias</option>
+                        <option value="avila">Ávila</option>
+                        <option value="badajoz">Badajoz</option>
+                        <option value="baleares">Baleares</option>
+                        <option value="barcelona">Barcelona</option>
+                        <option value="burgos">Burgos</option>
+                        <option value="caceres">Cáceres</option>
+                        <option value="cadiz">Cádiz</option>
+                        <option value="cantabria">Cantabria</option>
+                        <option value="castellon">Castellón</option>
+                        <option value="ceuta">Ceuta</option>
+                        <option value="ciudadreal">Ciudad Real</option>
+                        <option value="cordoba">Córdoba</option>
+                        <option value="cuenca">Cuenca</option>
+                        <option value="girona">Girona</option>
+                        <option value="granada">Granada</option>
+                        <option value="guadalajara">Guadalajara</option>
+                        <option value="gipuzcoa">Gipuzcoa</option>
+                        <option value="huelva">Huelva</option>
+                        <option value="huesca">Huesca</option>
+                        <option value="jaen">Jaén</option>
+                        <option value="larioja">La Rioja</option>
+                        <option value="laspalmas">Las Palmas</option>
+                        <option value="leon">León</option>
+                        <option value="lerida">Lérida</option>
+                        <option value="lugo">Lugo</option>
+                        <option value="madrid" selected>Madrid</option>
+                        <option value="malaga">Málaga</option>
+                        <option value="melilla">Melilla</option>
+                        <option value="murcia">Murcia</option>
+                        <option value="navarra">Navarra</option>
+                        <option value="ourense">Ourense</option>
+                        <option value="palencia">Palencia</option>
+                        <option value="pontevedra">Pontevedra</option>
+                        <option value="salamanca">Salamanca</option>
+                        <option value="segovia">Segovia</option>
+                        <option value="sevilla">Sevilla</option>
+                        <option value="soria">Soria</option>
+                        <option value="tarragona">Tarragona</option>
+                        <option value="santacruz">Santa Cruz de Tenerife</option>
+                        <option value="teruel">Teruel</option>
+                        <option value="toledo">Toledo</option>
+                        <option value="valencia">Valencia</option>
+                        <option value="valladolid">Valladolid</option>
+                        <option value="vizcaya">Vizcaya</option>
+                        <option value="zamora">Zamora</option>
+                        <option value="zaragoza">Zaragoza</option>
+                    </select>
+                </div>
+
+                <div class="linea">
+                    <label class="label" for="foto">Adjunta una foto de perfil: </label>
+                    <input type="file" required>
+
+                </div>
+                <input type="submit" value="Enviar respuestas" class="boton">
+                <input type="reset" value="Borrar selección" class="boton">
+            </form>
+
+        </div>
+        <!-- Imagen del lado derecho del main -->
+        <div class="imagen__form">
+            <img src="../assets/images/seattle.jpg" alt="" class="img">
+        </div>
+
+    </main>
+<!-- Footer que comparten todas las páginas -->
+    <footer class="footer">
+        <div class="footer__box">
+            <h3>Explora la serie</h3>
+            <div class="footer__items">
+                <a href="https://www.sensacine.com/series/serie-274/actualidad/" class="footer__link">Noticias</a>
+                <a href="https://www.youtube.com/watch?v=iPUq0927F2A&ab_channel=dandelions" class="footer__link">Banda
+                    Sonora</a>
+                <a href="elmundo.es/elmundo/2008/04/09/television/1207734530.html" class="footer__link">Adaptaciones</a>
+                <a href="https://www.formulatv.com/series/anatomia-de-grey/reparto/" class="footer__link">Reparto
+                    completo</a>
+                <a href="https://www.lne.es/vida-y-estilo/salud/2022/02/11/curiosidades-fascinantes-cuerpo-humano-19722116.html"
+                    class="footer__link">Curiosidades
+                </a>
+            </div>
+        </div>
+        <div class="footer__box">
+            <h3>Spin-offs</h3>
+            <div class="footer__items">
+                <a href="https://es.wikipedia.org/wiki/Private_Practice" class="footer__link">"Sin Cita Previa"</a>
+                <a href="https://www.eonline.com/mx/news/905734/-los-nuevos-internos-de-grey-s-anatomy-tienen-su-propio-show"
+                    class="footer__link">"B-Team"</a>
+                <a href="https://es.wikipedia.org/wiki/Station_19" class="footer__link">"Estación 19"</a>
+            </div>
+        </div>
+        <div class="footer__box">
+            <h3>Redes Sociales</h3>
+            <div class="footer__items footer__items--raw">
+                <div class="footer__img">
+                    <a href="https://es-es.facebook.com/MiZooPersonal/"><img src="../assets/images/facebook.png" alt=""
+                            class="img"></a>
+                </div>
+                <div class="footer__img">
+                    <a href="https://www.instagram.com/greysabc/"><img src="../assets/images/insta.png" alt=""
+                            class="img"></a>
+                </div>
+                <div class="footer__img">
+                    <a href="https://twitter.com/greysanatomyesp?lang=es"><img src="../assets/images/twitter.png" alt=""
+                            class="img"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer__box">
+            <h3>Menú</h3>
+            <div class="footer__items">
+                <a href="../index.html" class="footer__link">Inicio</a>
+                <a href="../pages/personajes.html" class="footer__link">Personajes</a>
+                <a href="../pages/temporadas.html" class="footer__link">Temporadas</a>
+                <a href="../pages/localizaciones.html" class="footer__link">¿Dónde trascurre?
+                </a>
+                <a href="../pages/registro.html" class="footer__link">Registro
+                </a>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+.main__tempo{
+    flex-direction: row;
+    margin-top: 150px;
+    text-align: justify;
+    align-items: flex-start;
+}
+/* Capa con las temporadas */
+.section{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+/* Caja de cada temporada */
+.section__box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.box__line{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgb(105, 105, 105);
+    background-color: rgb(219, 225, 233);
+    text-align: center;
+}
+.box__tittle{
+    font-variant: small-caps;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+.box__texts{
+    width: 93%;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgb(105, 105, 105);
+    background-color: rgb(219, 225, 233);
+
+}
+.box__text{
+    padding: 0px 25px;
+}
+.box__containimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: top;
+
+}
+/* Modificador para que se cambien de sitio la imagen y el texto */
+.box__containimg--reverse{
+    flex-direction: row-reverse;
+}
+.contain__img{
+    width: 150px;
+}
+.box__textsimg{
+    width: 80%;
+}
+/* Linea final del main */
+.linea{
+    font-size: 1.5rem;
+}
+/* Enlace a la página Registro */
+.registrate{
+    color: rgb(2, 2, 41);
+    text-decoration: none;
+}
+.registrate:hover{
+    text-decoration: underline;
+}
+
+/*Estilos del aside y la tabla*/
+
+.aside{
+    width: 25%;
+    background-color: rgb(219, 225, 233);
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: top;
+    
+    margin-top: 18px;
+    margin-left: 30px;
+    padding: 10px;
+}
+.aside__titulo{
+    text-align: center;
+    font-variant: small-caps;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+.table {    
+    width: 90%;
+    font-size: 1.4rem;
+    margin:15px;
+    border: 2px solid rgb(109, 125, 139);
+}
+
+/* Estilos para las celdas de la tabla */
+.table td {
+    border: 1px solid rgb(109, 125, 139);
+    text-align: center;
+}
+/* Estilos aplicados a la primera fila de la tabla (temporada y fecha) */
+.primera{
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    font-variant: small-caps;
+}

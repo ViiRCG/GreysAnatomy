@@ -1,0 +1,195 @@
+body{
+    background-color: rgba(198, 216, 231, 0.541);
+}
+
+@font-face {
+    font-family: Fredoka;
+    src: url(../assets/fonts/Fredoka-VariableFont_wdth\,wght.ttf);
+}
+/*Cabecera de la página*/
+
+.header{
+    background-image:linear-gradient(to right,  rgba(255,255,255,1) 0%, rgba(134, 174, 204, 0.288) 100%), url(../assets/images/quirofano.jpg);
+    background-position: center;
+    font-family: Fredoka;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+.header__logo{
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+.header__login{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-right: 80px;
+}
+
+
+/*VIDEO CON TEXTO*/
+.video__container{
+    height: 300px;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    object-fit: fill;
+   
+}
+.textos{
+    margin-top: 600px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-variant: small-caps;
+    font-family: Fredoka;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    background-color: rgba(128, 128, 128, 0.329);
+}
+.textos__item{
+    text-decoration: underline;
+}
+.textos__item--center{
+    padding-left: 50px;
+    margin-top: 0;
+}
+.textos__link{
+    color: rgb(0, 0, 0);
+}
+.textos__link:hover{
+    font-size: 2.5rem;
+    color: blue;
+}
+
+/* Estilos para la sinopsis. El resto de páginas compartirán parte de los estilos del main */
+.main{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Fredoka;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(46, 46, 46, 0.171);
+    border-radius: 5px;
+    box-shadow: 3px 3px 30px rgb(75, 75, 75);
+}
+
+
+.tittle{
+    border: 1px solid rgb(48, 48, 48);
+    background-color: aliceblue;
+    width: 20%;
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(48, 48, 48);
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    color: rgb(2, 2, 41);
+    padding: 0px 5px;
+}
+/* Flex con solo texto */
+.box__text{
+    display: flex; 
+    flex-wrap: wrap; 
+    text-align: justify;
+}
+/* Flex de la capa con texto e imagen */
+.box__text--img{
+    flex-direction: row-reverse;
+    justify-content: space-evenly; 
+    margin-bottom: 10px;
+    
+}
+.box__parag{
+    width: 70%;
+}
+.box__img{
+    width: 22%;
+    height: 200px;
+    margin-left: 35px;
+}
+.paragraf{
+    width: 92%;
+    margin: 10px auto;
+    padding: 0px 10px;
+}
+
+/*Footer que comparten el resto de páginas*/
+.footer{
+    
+    background-color: rgb(92, 92, 187);
+    margin-top: 30px;
+    border-top: 1px solid rgb(118,118,118);
+    border-bottom: 1px solid rgb(118,118,118);
+    font-family: Fredoka;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    padding-left: 70px;
+}
+.footer__box{
+    width: 20%;
+    margin: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.footer__items{
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.footer__items--raw{
+    flex-direction: row;
+    justify-content:flex-start;
+}
+.footer__link{
+    color: black;
+    font-family: Fredoka;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+.footer__link:hover{
+    text-decoration: underline;
+}
+.footer__img{
+    width: 50px;
+    height: 50px;
+}
